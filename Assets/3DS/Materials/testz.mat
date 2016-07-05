@@ -125,6 +125,10 @@ Material:
         second: 0.1
       data:
         first:
+          name: _Smoothness
+        second: 0.5
+      data:
+        first:
           name: _WindQuality
         second: 0
       data:
@@ -137,12 +141,16 @@ Material:
         second: 0.02
       data:
         first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
           name: _ZWrite
         second: 1
       data:
         first:
           name: _Glossiness
-        second: 0.5
+        second: 0
       data:
         first:
           name: _BumpScale
@@ -162,10 +170,6 @@ Material:
       data:
         first:
           name: _Mode
-        second: 0
-      data:
-        first:
-          name: _Metallic
         second: 0
       data:
         first:
@@ -207,6 +211,10 @@ Material:
         first:
           name: _SquashAmount
         second: 1
+      data:
+        first:
+          name: _EdgeLength
+        second: 10
     m_Colors:
       data:
         first:
