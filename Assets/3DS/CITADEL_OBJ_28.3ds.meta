@@ -1,10 +1,27 @@
 fileFormatVersion: 2
-guid: 3e24a8244b60a4c4582d95cb5cd34564
-timeCreated: 1467562305
+guid: d7087dbd3e1d31443b6e99adfb4f6e65
+timeCreated: 1467764373
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: body
+    100002: //RootNode
+    100004: sphere0
+    100006: sphere1
+    400000: body
+    400002: //RootNode
+    400004: sphere0
+    400006: sphere1
+    2300000: body
+    2300002: sphere0
+    2300004: sphere1
+    3300000: body
+    3300002: sphere0
+    3300004: sphere1
+    4300000: body
+    4300002: sphere0
+    4300004: sphere1
   materials:
     importMaterials: 1
     materialName: 0
@@ -63,7 +80,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
