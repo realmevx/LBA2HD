@@ -2538,7 +2538,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 6
   m_Type: 1
-  m_Color: {r: 1, g: 0.95506537, b: 0.75735295, a: 1}
+  m_Color: {r: 1, g: 0.9509804, b: 0.7352941, a: 1}
   m_Intensity: 1.5
   m_Range: 10
   m_SpotAngle: 30
@@ -2574,7 +2574,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!4 &322899420 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 2851a4ddcdc81794b9f1459443e9878c, type: 3}
@@ -4137,7 +4137,6 @@ Transform:
   - {fileID: 138631378}
   - {fileID: 222548184}
   - {fileID: 1173335426}
-  - {fileID: 1639568691}
   - {fileID: 894080726}
   - {fileID: 787682474}
   - {fileID: 1770314260}
@@ -4149,7 +4148,7 @@ Transform:
   - {fileID: 1088459987}
   - {fileID: 662794622}
   - {fileID: 43866928}
-  - {fileID: 2100123997}
+  - {fileID: 1639568691}
   - {fileID: 694640841}
   - {fileID: 1611944833}
   - {fileID: 169907155}
@@ -4161,6 +4160,7 @@ Transform:
   - {fileID: 771567492}
   - {fileID: 1042996687}
   - {fileID: 1534710614}
+  - {fileID: 2100123997}
   - {fileID: 2076081735}
   - {fileID: 505884300}
   - {fileID: 380923173}
@@ -4225,7 +4225,7 @@ Transform:
   - {fileID: 1239262622}
   - {fileID: 256315786}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!1 &560693439 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 16a8a08ee65ddbb4aa364e9782357d2d, type: 3}
@@ -5399,6 +5399,60 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7acf33c628c69984e8904f9a68be71e6, type: 3}
+  m_IsPrefabParent: 0
+--- !u!1001 &720897516
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 8f8ad95a6d5643b4e923e6362095219b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 456.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8f8ad95a6d5643b4e923e6362095219b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8f8ad95a6d5643b4e923e6362095219b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 513.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8f8ad95a6d5643b4e923e6362095219b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.70981026
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8f8ad95a6d5643b4e923e6362095219b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8f8ad95a6d5643b4e923e6362095219b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8f8ad95a6d5643b4e923e6362095219b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70439297
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8f8ad95a6d5643b4e923e6362095219b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8f8ad95a6d5643b4e923e6362095219b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 89.5617
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8f8ad95a6d5643b4e923e6362095219b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8f8ad95a6d5643b4e923e6362095219b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -180
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8f8ad95a6d5643b4e923e6362095219b, type: 3}
   m_IsPrefabParent: 0
 --- !u!1001 &724575093
 Prefab:
@@ -16260,4 +16314,4 @@ Transform:
   - {fileID: 276394675}
   - {fileID: 1873416854}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
