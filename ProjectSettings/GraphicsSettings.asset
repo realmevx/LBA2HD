@@ -24,7 +24,7 @@ GraphicsSettings:
   m_ShaderSettings:
     useScreenSpaceShadows: 1
   m_BuildTargetShaderSettings: []
-  m_LightmapStripping: 0
+  m_LightmapStripping: 1
   m_FogStripping: 0
   m_LightmapKeepPlain: 1
   m_LightmapKeepDirCombined: 1
