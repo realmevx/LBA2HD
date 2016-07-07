@@ -1,21 +1,18 @@
 fileFormatVersion: 2
-guid: d0cb33691e9691540a291abdd4c825c0
-timeCreated: 1467562310
+guid: 789f5080a7c6a2f4d94d713f6f323282
+timeCreated: 1467899826
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Geode
     400000: //RootNode
-    400002: Geode
-    2300000: Geode
-    3300000: Geode
-    4300000: Geode
-    6400000: Geode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: body
   materials:
     importMaterials: 1
-    materialName: 2
+    materialName: 0
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
@@ -39,7 +36,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -53,8 +50,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 0
-    normalImportMode: 1
+    normalSmoothAngle: 60
+    normalImportMode: 0
     tangentImportMode: 3
   importAnimation: 1
   copyAvatar: 0
