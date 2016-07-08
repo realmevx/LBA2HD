@@ -11,35 +11,59 @@ ModelImporter:
     100006: Geod2
     100008: Geod3
     100010: Geode
+    100012: Geod0.Geod0
+    100014: Geod3.Geod3
+    100016: Geod0.Geod0.
+    100018: Geod3.Geod3.
     400000: //RootNode
     400002: Geod0
     400004: Geod1
     400006: Geod2
     400008: Geod3
     400010: Geode
+    400012: Geod0.Geod0
+    400014: Geod3.Geod3
+    400016: Geod0.Geod0.
+    400018: Geod3.Geod3.
     2300000: Geod0
     2300002: Geod1
     2300004: Geod2
     2300006: Geod3
     2300008: Geode
+    2300010: Geod0.Geod0
+    2300012: Geod3.Geod3
+    2300014: Geod0.Geod0.
+    2300016: Geod3.Geod3.
     3300000: Geod0
     3300002: Geod1
     3300004: Geod2
     3300006: Geod3
     3300008: Geode
+    3300010: Geod0.Geod0
+    3300012: Geod3.Geod3
+    3300014: Geod0.Geod0.
+    3300016: Geod3.Geod3.
     4300000: Geode
     4300002: Geod0
     4300004: Geod1
     4300006: Geod2
     4300008: Geod3
+    4300010: Geod3.Geod3
+    4300012: Geod0.Geod0
+    4300014: Geod3.Geod3.
+    4300016: Geod0.Geod0.
     6400000: Geod0
     6400002: Geod1
     6400004: Geod2
     6400006: Geod3
     6400008: Geode
+    6400010: Geod0.Geod0
+    6400012: Geod3.Geod3
+    6400014: Geod0.Geod0.
+    6400016: Geod3.Geod3.
   materials:
     importMaterials: 1
-    materialName: 2
+    materialName: 1
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
