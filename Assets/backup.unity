@@ -508,6 +508,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_SIGN2
       objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e479957c8f3a22e45a070f97fd80b228, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
   m_IsPrefabParent: 0
@@ -706,6 +710,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_SIGN2
       objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e479957c8f3a22e45a070f97fd80b228, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
   m_IsPrefabParent: 0
@@ -2314,6 +2322,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e479957c8f3a22e45a070f97fd80b228, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
   m_IsPrefabParent: 0
@@ -3977,6 +3989,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_BIRDHOUSE
       objectReference: {fileID: 0}
+    - target: {fileID: 2300004, guid: 1b76bcfe0fe179f4ab41da34a99354df, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3d119a6758056094586c03354b6df46b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b76bcfe0fe179f4ab41da34a99354df, type: 3}
   m_IsPrefabParent: 0
@@ -5567,6 +5583,10 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e479957c8f3a22e45a070f97fd80b228, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
   m_IsPrefabParent: 0
@@ -6199,6 +6219,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e479957c8f3a22e45a070f97fd80b228, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
   m_IsPrefabParent: 0
@@ -6659,6 +6683,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_SIGN2
       objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e479957c8f3a22e45a070f97fd80b228, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
   m_IsPrefabParent: 0
@@ -8120,6 +8148,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e479957c8f3a22e45a070f97fd80b228, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
   m_IsPrefabParent: 0
@@ -11165,6 +11197,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e479957c8f3a22e45a070f97fd80b228, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
   m_IsPrefabParent: 0
@@ -13372,6 +13408,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e479957c8f3a22e45a070f97fd80b228, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
   m_IsPrefabParent: 0
@@ -16118,6 +16158,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e479957c8f3a22e45a070f97fd80b228, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
   m_IsPrefabParent: 0
@@ -17091,6 +17135,10 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300008, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e479957c8f3a22e45a070f97fd80b228, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3552994920ebf3d4589ae0c00672e397, type: 3}
   m_IsPrefabParent: 0
