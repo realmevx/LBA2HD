@@ -63,7 +63,7 @@ ModelImporter:
     6400016: Geod3.Geod3.
   materials:
     importMaterials: 1
-    materialName: 1
+    materialName: 2
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
