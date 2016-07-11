@@ -104,6 +104,10 @@ Material:
         second: 0.02
       data:
         first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
           name: _ZWrite
         second: 1
       data:
@@ -130,10 +134,6 @@ Material:
         first:
           name: _Mode
         second: 0
-      data:
-        first:
-          name: _Metallic
-        second: 0
     m_Colors:
       data:
         first:
@@ -142,7 +142,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 0.29163063, g: 0.45588237, b: 0.31900597, a: 1}
+        second: {r: 0.18977077, g: 0.33088237, b: 0.21328942, a: 1}
       data:
         first:
           name: _SpecColor
