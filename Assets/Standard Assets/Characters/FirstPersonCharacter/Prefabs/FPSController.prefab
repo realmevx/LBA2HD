@@ -211,7 +211,7 @@ MonoBehaviour:
   m_RunstepLenghten: 0.7
   m_JumpSpeed: 10
   m_StickToGroundForce: 10
-  m_GravityMultiplier: 2
+  m_GravityMultiplier: 4
   m_MouseLook:
     XSensitivity: 2
     YSensitivity: 2

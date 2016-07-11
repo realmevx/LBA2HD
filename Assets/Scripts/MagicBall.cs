@@ -13,7 +13,6 @@ public class MagicBall : MonoBehaviour
 		if (Input.GetButtonDown("Fire1"))
 		{
 			CheckForMagicBall = GameObject.FindWithTag("MagicBall");
-
 			if (CheckForMagicBall == null)
 			{
 				MagicBall_object = (GameObject)Instantiate(MagicBall_prefab, transform.position + transform.forward, transform.rotation);
