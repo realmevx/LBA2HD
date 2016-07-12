@@ -2,14 +2,17 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 3
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: WaterBasicDaytime
-  m_Shader: {fileID: 4800000, guid: 9dccc8e8f0da4494991c26ef59019551, type: 3}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
+  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _ALPHABLEND_ON _NORMALMAP
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -25,6 +28,55 @@ Material:
           name: _BumpMap
         second:
           m_Texture: {fileID: 2800000, guid: a53cf5449d11a15d1100a04b44295342, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlossMap
+        second:
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -72,20 +124,64 @@ Material:
     m_Floats:
       data:
         first:
+          name: _SrcBlend
+        second: 5
+      data:
+        first:
+          name: _DstBlend
+        second: 10
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
           name: _Shininess
         second: 1
       data:
         first:
+          name: _Parallax
+        second: 0.02
+      data:
+        first:
+          name: _ZWrite
+        second: 0
+      data:
+        first:
+          name: _Glossiness
+        second: 0.5
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 2
+      data:
+        first:
           name: _WaveScale
-        second: .0702830181
+        second: 0.07028302
       data:
         first:
           name: _Highlight
-        second: 33.2075462
+        second: 33.207546
       data:
         first:
           name: _bScale
-        second: .0700000003
+        second: 0.07
       data:
         first:
           name: _BumpPeturb
@@ -93,28 +189,32 @@ Material:
       data:
         first:
           name: _BumpPeturb2
-        second: .745283008
+        second: 0.745283
       data:
         first:
           name: _bTwirl
-        second: .0500000007
+        second: 0.05
       data:
         first:
           name: _distort
-        second: .100000001
+        second: 0.1
     m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
       data:
         first:
           name: _Color
         second: {r: 0, g: 0, b: 0, a: 1}
       data:
         first:
-          name: _MainTex_ST
-        second: {r: 1, g: 1, b: 0, a: 0}
+          name: _SpecColor
+        second: {r: 0, g: 0, b: 0, a: 0.4}
       data:
         first:
-          name: _SpecColor
-        second: {r: 0, g: 0, b: 0, a: .400000006}
+          name: _MainTex_ST
+        second: {r: 1, g: 1, b: 0, a: 0}
       data:
         first:
           name: _BumpMap_ST
@@ -126,7 +226,7 @@ Material:
       data:
         first:
           name: _horizonColor
-        second: {r: 0, g: .125133663, b: .191176474, a: 0}
+        second: {r: 0, g: 0.12513366, b: 0.19117647, a: 0}
       data:
         first:
           name: _ColorControl_ST
@@ -142,31 +242,31 @@ Material:
       data:
         first:
           name: _EdgeColor
-        second: {r: 0, g: .100000001, b: 0, a: .100000001}
+        second: {r: 0, g: 0.1, b: 0, a: 0.1}
       data:
         first:
           name: _RefTex_0
-        second: {r: -1517.37024, g: -23.9408531, b: -3154.91675, a: 2715.94165}
+        second: {r: -1517.3702, g: -23.940853, b: -3154.9167, a: 2715.9417}
       data:
         first:
           name: _RefTex_1
-        second: {r: 356.584351, g: -313.125671, b: -962.84906, a: 2791.50659}
+        second: {r: 356.58435, g: -313.12567, b: -962.84906, a: 2791.5066}
       data:
         first:
           name: _RefTex_2
-        second: {r: 4.95644999, g: -.187056601, b: -13.3834057, a: 20.1233597}
+        second: {r: 4.95645, g: -0.1870566, b: -13.383406, a: 20.12336}
       data:
         first:
           name: _RefTex_3
-        second: {r: 4.95595503, g: -.18703793, b: -13.3820696, a: 20.2213535}
+        second: {r: 4.955955, g: -0.18703793, b: -13.38207, a: 20.221354}
       data:
         first:
           name: horizonColor
-        second: {r: .61500001, g: .796000004, b: .875999987, a: 1}
+        second: {r: 0.615, g: 0.796, b: 0.876, a: 1}
       data:
         first:
           name: uvParams
-        second: {r: 10, g: .0199999996, b: .0299999993, a: 0}
+        second: {r: 10, g: 0.02, b: 0.03, a: 0}
       data:
         first:
           name: waveDirX
@@ -178,7 +278,7 @@ Material:
       data:
         first:
           name: waveHeights
-        second: {r: .800000012, g: 1, b: .100000001, a: .0500000007}
+        second: {r: 0.8, g: 1, b: 0.1, a: 0.05}
       data:
         first:
           name: _WaveSpeed

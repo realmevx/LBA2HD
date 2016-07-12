@@ -1,0 +1,1 @@
+to add skyboxes to your scene, just drag the skybox materials in Materials folder to your scene by using Render settings (or Lightning Tab in Unity 5)
