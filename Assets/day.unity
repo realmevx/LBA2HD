@@ -41,7 +41,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 6
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_LightmapsMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -66,7 +66,8 @@ LightmapSettings:
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000001, guid: 7b90b289c58a53540869b6edcb69c6a7,
+    type: 2}
   m_RuntimeCPUUsage: 25
 --- !u!196 &4
 NavMeshSettings:
@@ -172,7 +173,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 4132966}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
@@ -218,8 +219,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 4132966}
   m_LocalRotation: {x: 0, y: 0.052303426, z: 0, w: 0.9986313}
-  m_LocalPosition: {x: 630.388, y: 6.515, z: 447.446}
-  m_LocalScale: {x: 2.131201, y: 0.20899105, z: 0.11520607}
+  m_LocalPosition: {x: 630.398, y: 7.027, z: 447.531}
+  m_LocalScale: {x: 3.4941807, y: 1.2965817, z: 0.11520607}
   m_LocalEulerAnglesHint: {x: 0, y: 5.9962997, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -281,7 +282,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 2}
       propertyPath: waterMode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 2}
       propertyPath: m_LocalScale.y
@@ -13414,8 +13415,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MagicBall_prefab: {fileID: 100002, guid: b9a5d77d9bd302541b1b001f58ed04e2, type: 2}
-  MagicBall_object: {fileID: 0}
-  CheckForMagicBall: {fileID: 0}
 --- !u!1001 &1442142051
 Prefab:
   m_ObjectHideFlags: 0
