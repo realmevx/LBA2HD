@@ -8,6 +8,6 @@ PhysicMaterial:
   m_Name: MagicBall
   dynamicFriction: 1
   staticFriction: 1
-  bounciness: 1
+  bounciness: 0.5
   frictionCombine: 3
   bounceCombine: 3
