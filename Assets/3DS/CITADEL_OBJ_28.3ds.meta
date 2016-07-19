@@ -27,7 +27,7 @@ ModelImporter:
     6400004: sphere1
   materials:
     importMaterials: 1
-    materialName: 1
+    materialName: 2
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4

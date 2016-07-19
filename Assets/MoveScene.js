@@ -6,7 +6,7 @@ function OnTriggerEnter(Col : Collider)
 {
 	if(Col.CompareTag("Player"))
 	{
-		Application.LoadLevel(newScene);
+		SceneManagement.SceneManager.LoadScene ("Scene2");
 	}
 }
 	
