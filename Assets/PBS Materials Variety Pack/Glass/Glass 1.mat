@@ -8,8 +8,8 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Glass 1
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ALPHABLEND_ON _NORMALMAP
-  m_LightmapFlags: 5
+  m_ShaderKeywords: _ALPHABLEND_ON _EMISSION _NORMALMAP
+  m_LightmapFlags: 1
   m_CustomRenderQueue: 3000
   stringTagMap:
     RenderType: Transparent
@@ -114,7 +114,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: 1
+        second: 0.642
       data:
         first:
           name: _BumpScale
@@ -143,11 +143,11 @@ Material:
       data:
         first:
           name: _EmissionColor
-        second: {r: 0, g: 0, b: 0, a: 0}
+        second: {r: 0, g: 0.14325269, b: 0.2647059, a: 0}
       data:
         first:
           name: _Color
-        second: {r: 0, g: 0.5421686, b: 1, a: 1}
+        second: {r: 0, g: 0.34682843, b: 0.6397059, a: 1}
       data:
         first:
           name: _SpecColor
