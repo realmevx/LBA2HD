@@ -21,7 +21,7 @@ Material:
           name: _MainTex
         second:
           m_Texture: {fileID: 2800000, guid: 0ddd40c74e205cc499651e50c3d1e00e, type: 3}
-          m_Scale: {x: 1, y: 1}
+          m_Scale: {x: 0.5, y: 0.5}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -56,7 +56,7 @@ Material:
           name: _EmissionMap
         second:
           m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
+          m_Scale: {x: 0.5, y: 0.5}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -109,6 +109,10 @@ Material:
         second: 0.02
       data:
         first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
           name: _ZWrite
         second: 1
       data:
@@ -135,10 +139,6 @@ Material:
         first:
           name: _Mode
         second: 1
-      data:
-        first:
-          name: _Metallic
-        second: 0
     m_Colors:
       data:
         first:
