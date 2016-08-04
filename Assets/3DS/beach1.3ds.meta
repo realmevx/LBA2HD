@@ -17,6 +17,8 @@ ModelImporter:
     3300002: Geod7.Geod7
     4300000: Geod6.Geod6
     4300002: Geod7.Geod7
+    6400000: Geod6.Geod6
+    6400002: Geod7.Geod7
   materials:
     importMaterials: 1
     materialName: 0
@@ -43,7 +45,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -57,8 +59,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
+    normalSmoothAngle: 180
+    normalImportMode: 1
     tangentImportMode: 3
   importAnimation: 1
   copyAvatar: 0

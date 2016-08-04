@@ -32,6 +32,11 @@ ModelImporter:
     4300004: sphere1
     4300006: sphere2
     4300008: sphere3
+    6400000: body
+    6400002: sphere0
+    6400004: sphere1
+    6400006: sphere2
+    6400008: sphere3
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -59,7 +64,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

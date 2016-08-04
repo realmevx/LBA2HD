@@ -1,52 +1,27 @@
 fileFormatVersion: 2
-guid: cefbcc4931442f44c81e46aa54aaa9d0
-timeCreated: 1467891980
+guid: 8d628b93faae0c54c927efb32970925f
+timeCreated: 1470279368
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: body
-    100002: //RootNode
-    100004: sphere0
-    100006: sphere1
-    100008: sphere2
-    100010: sphere3
-    100012: sphere4
-    400000: body
-    400002: //RootNode
-    400004: sphere0
-    400006: sphere1
-    400008: sphere2
-    400010: sphere3
-    400012: sphere4
-    2300000: body
-    2300002: sphere0
-    2300004: sphere1
-    2300006: sphere2
-    2300008: sphere3
-    2300010: sphere4
-    3300000: body
-    3300002: sphere0
-    3300004: sphere1
-    3300006: sphere2
-    3300008: sphere3
-    3300010: sphere4
-    4300000: body
-    4300002: sphere0
-    4300004: sphere1
-    4300006: sphere2
-    4300008: sphere3
-    4300010: sphere4
-    6400000: body
-    6400002: sphere0
-    6400004: sphere1
-    6400006: sphere2
-    6400008: sphere3
-    6400010: sphere4
-    9500000: //RootNode
+    100000: Geod6.Geod6
+    100002: Geod7.Geod7
+    100004: //RootNode
+    400000: Geod6.Geod6
+    400002: Geod7.Geod7
+    400004: //RootNode
+    2300000: Geod6.Geod6
+    2300002: Geod7.Geod7
+    3300000: Geod6.Geod6
+    3300002: Geod7.Geod7
+    4300000: Geod7.Geod7
+    4300002: Geod6.Geod6
+    6400000: Geod6.Geod6
+    6400002: Geod7.Geod7
   materials:
     importMaterials: 1
-    materialName: 2
+    materialName: 0
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
@@ -58,7 +33,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -84,7 +59,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
+    normalSmoothAngle: 180
     normalImportMode: 1
     tangentImportMode: 3
   importAnimation: 1
@@ -102,7 +77,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

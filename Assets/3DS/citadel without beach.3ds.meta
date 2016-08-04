@@ -132,6 +132,8 @@ ModelImporter:
     4300044: Geod0.Geod0
     4300046: Geod7.Geod7
     4300048: Geod6.Geod6
+    6400000: Geod6.Geod6
+    6400002: Geod7.Geod7
   materials:
     importMaterials: 1
     materialName: 0
@@ -158,7 +160,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

@@ -15,6 +15,7 @@ ModelImporter:
     3300002: Geode
     4300000: body
     4300002: Geode
+    6400000: Geode
   materials:
     importMaterials: 1
     materialName: 2
@@ -41,7 +42,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

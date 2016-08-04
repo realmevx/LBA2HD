@@ -137,6 +137,27 @@ ModelImporter:
     4300046: Geod4.Geod4
     4300048: Geod19.Geod1
     4300050: Geod5.Geod5
+    6400000: Geod0.Geod0
+    6400002: Geod1.Geod1
+    6400004: Geod10.Geod1
+    6400006: Geod11.Geod1
+    6400008: Geod12.Geod1
+    6400010: Geod13.Geod1
+    6400012: Geod14.Geod1
+    6400014: Geod15.Geod1
+    6400016: Geod16.Geod1
+    6400018: Geod17.Geod1
+    6400020: Geod18.Geod1
+    6400022: Geod19.Geod1
+    6400024: Geod2.Geod2
+    6400026: Geod3.Geod3
+    6400028: Geod4.Geod4
+    6400030: Geod5.Geod5
+    6400032: Geod6.Geod6
+    6400034: Geod7.Geod7
+    6400036: Geod8.Geod8
+    6400038: Geod9.Geod9.
+    6400040: Geode.Geode
   materials:
     importMaterials: 1
     materialName: 0
@@ -163,7 +184,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

@@ -32,6 +32,11 @@ ModelImporter:
     4300004: sphere1
     4300006: sphere2
     4300008: sphere3
+    6400000: body
+    6400002: sphere0
+    6400004: sphere1
+    6400006: sphere2
+    6400008: sphere3
   materials:
     importMaterials: 1
     materialName: 0
