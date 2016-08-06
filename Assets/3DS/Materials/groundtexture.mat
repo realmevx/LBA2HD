@@ -85,6 +85,20 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ToonShade
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
@@ -105,19 +119,19 @@ Material:
       data:
         first:
           name: _Smoothness
-        second: 0.5
+        second: 0
       data:
         first:
           name: PixelSnap
         second: 0
       data:
         first:
-          name: _Parallax
-        second: 0.02
-      data:
-        first:
           name: _Metallic
         second: 0
+      data:
+        first:
+          name: _Parallax
+        second: 0.02
       data:
         first:
           name: _ZWrite
@@ -150,6 +164,10 @@ Material:
         first:
           name: _EdgeLength
         second: 10
+      data:
+        first:
+          name: _Outline
+        second: 0.005
     m_Colors:
       data:
         first:
@@ -162,4 +180,8 @@ Material:
       data:
         first:
           name: _SpecColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _OutlineColor
         second: {r: 0, g: 0, b: 0, a: 1}
