@@ -9,22 +9,28 @@ ModelImporter:
     100002: //RootNode
     100004: sphere0
     100006: sphere1
+    100008: body.001
     400000: body
     400002: //RootNode
     400004: sphere0
     400006: sphere1
+    400008: body.001
     2300000: body
     2300002: sphere0
     2300004: sphere1
+    2300006: body.001
     3300000: body
     3300002: sphere0
     3300004: sphere1
+    3300006: body.001
     4300000: body
     4300002: sphere0
     4300004: sphere1
+    4300006: body.001
     6400000: body
     6400002: sphere0
     6400004: sphere1
+    6400006: body.001
   materials:
     importMaterials: 1
     materialName: 2

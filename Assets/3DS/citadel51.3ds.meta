@@ -6,11 +6,22 @@ ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: body
+    100004: body.001
     400000: //RootNode
+    400002: body
+    400004: body.001
     2300000: //RootNode
+    2300002: body
+    2300004: body.001
     3300000: //RootNode
+    3300002: body
+    3300004: body.001
     4300000: body
+    4300002: body.001
     6400000: //RootNode
+    6400002: body
+    6400004: body.001
   materials:
     importMaterials: 1
     materialName: 2
@@ -51,7 +62,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 180
+    normalSmoothAngle: 111
     normalImportMode: 1
     tangentImportMode: 3
   importAnimation: 1
