@@ -234,9 +234,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - {fileID: 8300000, guid: 7d7ac9f13ad814840aa6784f7ff6120e, type: 3}
-  - {fileID: 8300000, guid: cd01e08e0b6c7f4458a99a51510a5e4f, type: 3}
-  - {fileID: 8300000, guid: d238eaa8738d878499943df5f9d0ebb6, type: 3}
+  - {fileID: 8300000, guid: 6d08d52e9b659fc4e9cfb63b4bedb367, type: 3}
+  - {fileID: 8300000, guid: 6d08d52e9b659fc4e9cfb63b4bedb367, type: 3}
+  - {fileID: 8300000, guid: 6d08d52e9b659fc4e9cfb63b4bedb367, type: 3}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
