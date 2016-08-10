@@ -1,22 +1,30 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+
 public class IntroTextAppearScript : MonoBehaviour
 {
+    static bool introTextAlreadyShown = false;
+
     public Text canvasText1;
     public Text canvasText2;
     public Text canvasText3;
+    public float textduration;
 
     void Start()
     {
         // As soon as this function is called, call the bottom functions 'ShowTextY' after xxf seconds.
-        // After 35 seconds hide all texts on the canvas.
 
-        Invoke("HideAllTexts", 0f);  //invoke at the beginning 
-        Invoke("ShowText1", 2f) ;    //invoke after  2 seconds
-        Invoke("ShowText2", 10f);    //invoke after 10 seconds
-        Invoke("ShowText3", 18f);    //invoke after 18 seconds
-        Invoke("HideAllTexts", 26f); //invoke after 26 seconds
+
+        Invoke("HideAllTexts", 0f);                         //invoke at the beginning
+        if (introTextAlreadyShown == false){
+
+            introTextAlreadyShown = true;
+            Invoke("ShowText1",    2f);                     //invoke after  2 seconds
+            Invoke("ShowText2",    2f + 1 * textduration);  //invoke after 10 seconds
+            Invoke("ShowText3",    2f + 2 * textduration);  //invoke after 18 seconds
+            Invoke("HideAllTexts", 2f + 3 * textduration);  //invoke after 26 seconds
+        }
     }
 
 

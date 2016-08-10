@@ -10931,6 +10931,7 @@ MonoBehaviour:
   canvasText1: {fileID: 846045460}
   canvasText2: {fileID: 1677201759}
   canvasText3: {fileID: 1166341980}
+  textduration: 6
 --- !u!1001 &1002247523
 Prefab:
   m_ObjectHideFlags: 0
@@ -22801,7 +22802,6 @@ MonoBehaviour:
     m_MaxSentMessageQueueSize: 128
     m_IsAcksLong: 0
     m_UsePlatformSpecificProtocols: 0
-    m_WebSocketReceiveBufferMaxSize: 0
     m_Channels: []
   m_GlobalConfig:
     m_ThreadAwakeTimeout: 1
