@@ -108,7 +108,7 @@ Material:
       second: 0.02
     - first:
         name: _Rotation
-      second: 1.045884
+      second: 3.4639196
     - first:
         name: _SrcBlend
       second: 1

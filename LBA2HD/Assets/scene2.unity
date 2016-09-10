@@ -32,17 +32,17 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 256
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.017760804, g: 0.015005969, b: 0.048593357, a: 1}
+  m_IndirectSpecularColor: {r: 0.018252155, g: 0.015729679, b: 0.04922709, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 7
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -64,14 +64,14 @@ LightmapSettings:
     m_CompAOExponentDirect: 0
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
-    m_LightmapsBakeMode: 1
+    m_LightmapsBakeMode: 2
     m_TextureCompression: 1
     m_DirectLightInLightProbes: 1
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
-  m_LightingDataAsset: {fileID: 112000001, guid: ef4b41b1c457cb6488012c9278c03f83,
+  m_LightingDataAsset: {fileID: 112000001, guid: d3000961422ba9240abf65211a703b63,
     type: 2}
   m_RuntimeCPUUsage: 25
 --- !u!196 &4
@@ -26108,7 +26108,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2091195296}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 60e318a6043c1cb4a8ce1c8805bab930, type: 3}
   m_Name: 
@@ -26120,8 +26120,8 @@ MonoBehaviour:
   sunColor: {r: 1, g: 1, b: 1, a: 1}
   sunThreshold: {r: 0.87, g: 0.74, b: 0.65, a: 1}
   sunShaftBlurRadius: 2.5
-  sunShaftIntensity: 1.4
-  maxRadius: 0.75
+  sunShaftIntensity: 0.1
+  maxRadius: 0.9
   useDepthTexture: 1
   sunShaftsShader: {fileID: 4800000, guid: d3b1c8c1036784176946f5cfbfb7fe4c, type: 3}
   simpleClearShader: {fileID: 4800000, guid: f688f89ed5eb847c5b19c934a0f1e772, type: 3}
