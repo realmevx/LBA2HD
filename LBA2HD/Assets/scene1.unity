@@ -80,16 +80,17 @@ NavMeshSettings:
   m_ObjectHideFlags: 0
   m_BuildSettings:
     serializedVersion: 2
+    agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
-    accuratePlacement: 0
     minRegionArea: 2
-    cellSize: 0.16666667
     manualCellSize: 0
+    cellSize: 0.16666667
+    accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
 --- !u!1001 &1399787
 Prefab:
@@ -240,7 +241,7 @@ GameObject:
   - component: {fileID: 4132967}
   - component: {fileID: 4132971}
   m_Layer: 0
-  m_Name: Trigger
+  m_Name: TRIGGER_NIGHT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -259,7 +260,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 52b7d70b1de7c4ce09662b77c14d9fda, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -317,10 +318,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4132966}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee7d1257a0040924ca964a3a0a723a81, type: 3}
+  m_Script: {fileID: 11500000, guid: 5923edd675ca4014dae53ed51e3a39a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newScene: scene2
+  newScene: 
 --- !u!4 &5626105 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
@@ -400,7 +401,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 0.003
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 2}
       propertyPath: m_LocalPosition.z
@@ -617,6 +618,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_PALMTREE
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efec8031b7f0b3b4e9789b26bd30a7a6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
   m_IsPrefabParent: 0
@@ -1910,7 +1915,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &154215511
 Transform:
   m_ObjectHideFlags: 0
@@ -3155,7 +3160,7 @@ GameObject:
   - component: {fileID: 261671413}
   - component: {fileID: 261671412}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: TRIGGER_RESPAWN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3169,7 +3174,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 261671411}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3269fa943d34765418965e4b5899ed25, type: 3}
+  m_Script: {fileID: 11500000, guid: e06cd68beeb3ae34eac0c968b4d7a3ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   newScene: 
@@ -3911,7 +3916,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &320806633
 Transform:
   m_ObjectHideFlags: 0
@@ -5441,6 +5446,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_TWINSENHOUSE
       objectReference: {fileID: 0}
+    - target: {fileID: 2300014, guid: 877e13a8e0ce84a4db529aeed593f78f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e8254703b67d41541a0eeced63cfd013, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 877e13a8e0ce84a4db529aeed593f78f, type: 3}
   m_IsPrefabParent: 0
@@ -6174,7 +6183,7 @@ Transform:
   - {fileID: 25990514}
   - {fileID: 449364874}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &560693439 stripped
 GameObject:
@@ -8368,7 +8377,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7593890bef5abec42a01b23c5a156a42, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7593890bef5abec42a01b23c5a156a42, type: 3}
       propertyPath: m_LocalScale.x
@@ -8402,6 +8411,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: b1cba666edb6d6043a61c04a320ed918, type: 2}
+    - target: {fileID: 100000, guid: 7593890bef5abec42a01b23c5a156a42, type: 3}
+      propertyPath: m_Name
+      value: STONE_WALL
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7593890bef5abec42a01b23c5a156a42, type: 3}
   m_IsPrefabParent: 0
@@ -8889,6 +8902,10 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efec8031b7f0b3b4e9789b26bd30a7a6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
   m_IsPrefabParent: 0
@@ -9001,6 +9018,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_PALMTREE
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efec8031b7f0b3b4e9789b26bd30a7a6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
   m_IsPrefabParent: 0
@@ -11828,55 +11849,55 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 645.58
+      value: 645.51
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.31
+      value: -1.19
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 500.08
+      value: 500.0892
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5
+      value: 0.4969872
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5
+      value: 0.5028478
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.5
+      value: -0.49705547
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5
+      value: 0.5030742
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 100
+      value: 100.00005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_LocalScale.y
-      value: 100
+      value: 100.0071
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_LocalScale.z
-      value: 50
+      value: 50.00356
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: 88.574005
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 90
+      value: 89.31901
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -11890,6 +11911,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9fe8cfe2169e43949b4ce577ef2b1521, type: 2}
+    - target: {fileID: 400000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.417
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
+      propertyPath: m_Name
+      value: BEACH
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2238205b398f7a145af611d83a5f44c3, type: 3}
   m_IsPrefabParent: 0
@@ -12178,7 +12207,7 @@ GameObject:
   - component: {fileID: 1026514109}
   - component: {fileID: 1026514108}
   m_Layer: 0
-  m_Name: Trigger (1)
+  m_Name: TRIGGER_DESERT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12192,7 +12221,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1026514107}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6ba6f6d8f88b0541a77e3b793787050, type: 3}
+  m_Script: {fileID: 11500000, guid: 0fdd67e909020c548b7a446077b2362c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   newScene: 
@@ -13433,6 +13462,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_PALMTREE
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efec8031b7f0b3b4e9789b26bd30a7a6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
   m_IsPrefabParent: 0
@@ -13855,6 +13888,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_PALMTREE
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efec8031b7f0b3b4e9789b26bd30a7a6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
   m_IsPrefabParent: 0
@@ -14621,7 +14658,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1203634983
 Transform:
   m_ObjectHideFlags: 0
@@ -15482,6 +15519,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_PALMTREE
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efec8031b7f0b3b4e9789b26bd30a7a6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
   m_IsPrefabParent: 0
@@ -15579,6 +15620,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_PALMTREE
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efec8031b7f0b3b4e9789b26bd30a7a6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
   m_IsPrefabParent: 0
@@ -15828,7 +15873,7 @@ GameObject:
   - component: {fileID: 1349807285}
   - component: {fileID: 1349807284}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: HARBOR_SLOPE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15847,7 +15892,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: b7cb70d21cdaa2640b72406a6a49473c, type: 2}
+  - {fileID: 2100000, guid: b0bd29c40270de345badbdcf9af1f4cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16032,6 +16077,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efec8031b7f0b3b4e9789b26bd30a7a6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
   m_IsPrefabParent: 0
@@ -16436,7 +16485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1374561314}
   m_Layer: 0
-  m_Name: beachfinal
+  m_Name: BEACH
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18737,6 +18786,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: b1cba666edb6d6043a61c04a320ed918, type: 2}
+    - target: {fileID: 100000, guid: 79e8ce724a5e9954da0bd96f05aba455, type: 3}
+      propertyPath: m_Name
+      value: STONE_WALL
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 79e8ce724a5e9954da0bd96f05aba455, type: 3}
   m_IsPrefabParent: 0
@@ -19005,6 +19058,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_PALMTREE
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efec8031b7f0b3b4e9789b26bd30a7a6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
   m_IsPrefabParent: 0
@@ -19117,6 +19174,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_PALMTREE
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efec8031b7f0b3b4e9789b26bd30a7a6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
   m_IsPrefabParent: 0
@@ -19519,7 +19580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee7d1257a0040924ca964a3a0a723a81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newScene: scene2
 --- !u!1001 &1655059822
 Prefab:
   m_ObjectHideFlags: 0
@@ -20043,7 +20103,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1679832021
 Transform:
   m_ObjectHideFlags: 0
@@ -21410,6 +21470,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_PALMTREE
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efec8031b7f0b3b4e9789b26bd30a7a6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
   m_IsPrefabParent: 0
@@ -22002,6 +22066,10 @@ Prefab:
       propertyPath: m_Name
       value: CITADEL_PALMTREE
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: efec8031b7f0b3b4e9789b26bd30a7a6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15c0448032cdb6841b5a09f7b79c9e5e, type: 3}
   m_IsPrefabParent: 0
@@ -24045,7 +24113,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b3fa2f7f422f53442a0f60a0c3179845, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b3fa2f7f422f53442a0f60a0c3179845, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24062,7 +24130,7 @@ Prefab:
     - target: {fileID: 2300002, guid: b3fa2f7f422f53442a0f60a0c3179845, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ed09714b0c663ce438a184f8b76c6fc8, type: 2}
+      objectReference: {fileID: 2100000, guid: 3441daf81cff76544a10d962eaca5a82, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b3fa2f7f422f53442a0f60a0c3179845, type: 3}
   m_IsPrefabParent: 0
@@ -24711,7 +24779,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0b5d020f74a2bad45afe667a6e919bcd, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0b5d020f74a2bad45afe667a6e919bcd, type: 3}
       propertyPath: m_LocalScale.x
@@ -24741,6 +24809,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: b1cba666edb6d6043a61c04a320ed918, type: 2}
+    - target: {fileID: 100000, guid: 0b5d020f74a2bad45afe667a6e919bcd, type: 3}
+      propertyPath: m_Name
+      value: STONE_WALL
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b5d020f74a2bad45afe667a6e919bcd, type: 3}
   m_IsPrefabParent: 0
@@ -25955,7 +26027,7 @@ Transform:
   - {fileID: 1715006605}
   - {fileID: 347637304}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2127389845 stripped
 Transform:

@@ -51,6 +51,7 @@ ModelImporter:
     100086: Geod4.Geod4..000
     100088: Geod4.Geod4..001
     100090: Geod4.Geod4..002
+    100092: Geod4.Geod4..003
     400000: //RootNode
     400002: Geod0
     400004: Geod1
@@ -97,6 +98,7 @@ ModelImporter:
     400086: Geod4.Geod4..000
     400088: Geod4.Geod4..001
     400090: Geod4.Geod4..002
+    400092: Geod4.Geod4..003
     2300000: Geod0
     2300002: Geod1
     2300004: Geod10
@@ -141,6 +143,7 @@ ModelImporter:
     2300082: Geod4.Geod4..000
     2300084: Geod4.Geod4..001
     2300086: Geod4.Geod4..002
+    2300088: Geod4.Geod4..003
     3300000: Geod0
     3300002: Geod1
     3300004: Geod10
@@ -185,6 +188,7 @@ ModelImporter:
     3300082: Geod4.Geod4..000
     3300084: Geod4.Geod4..001
     3300086: Geod4.Geod4..002
+    3300088: Geod4.Geod4..003
     4300000: Geode
     4300002: Geod0
     4300004: Geod1
@@ -229,6 +233,7 @@ ModelImporter:
     4300082: Geod4.Geod4..000
     4300084: Geod4.Geod4..001
     4300086: Geod4.Geod4..002
+    4300088: Geod4.Geod4..003
     6400000: Geod0
     6400002: Geod1
     6400004: Geod10
@@ -273,6 +278,7 @@ ModelImporter:
     6400082: Geod4.Geod4..000
     6400084: Geod4.Geod4..001
     6400086: Geod4.Geod4..002
+    6400088: Geod4.Geod4..003
   materials:
     importMaterials: 1
     materialName: 0
@@ -329,6 +335,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
