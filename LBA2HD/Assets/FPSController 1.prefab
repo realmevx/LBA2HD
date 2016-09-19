@@ -1256,7 +1256,7 @@ MonoBehaviour:
     jitterSettings:
       sequence: 0
       spread: 0.2
-      sampleCount: 6
+      sampleCount: 4
     sharpenFilterSettings:
       amount: 0
     blendSettings:
@@ -1303,7 +1303,7 @@ MonoBehaviour:
   settings:
     intensity: 0.15
     radius: 0.2
-    sampleCount: 2
+    sampleCount: 0
     sampleCountValue: 24
     downsampling: 0
     ambientOnly: 0
@@ -1370,7 +1370,7 @@ MonoBehaviour:
     softKnee: 0.6
     radius: 2
     intensity: 0.4
-    highQuality: 1
+    highQuality: 0
     antiFlicker: 0
   m_Shader: {fileID: 4800000, guid: e45d4f28262b04d10a075856ab5fdb5e, type: 3}
 --- !u!114 &114000014183059560
