@@ -31,3 +31,6 @@ J:\LBA2HD\LBA2HD\Temp\bin\Debug\UnityEngine.VR.xml
 J:\LBA2HD\LBA2HD\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
 J:\LBA2HD\LBA2HD\obj\Debug\Assembly-CSharp-firstpass.dll
 J:\LBA2HD\LBA2HD\obj\Debug\Assembly-CSharp-firstpass.pdb
+J:\LBA2HD\LBA2HD\Temp\bin\Debug\Photon3Unity3D.dll
+J:\LBA2HD\LBA2HD\Temp\bin\Debug\websocket-sharp.dll
+J:\LBA2HD\LBA2HD\Temp\bin\Debug\Photon3Unity3D.xml
