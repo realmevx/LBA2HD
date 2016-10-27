@@ -52,6 +52,9 @@ ModelImporter:
     100088: Geod4.Geod4..001
     100090: Geod4.Geod4..002
     100092: Geod4.Geod4..003
+    100094: Geod10.Geod1.000
+    100096: Geod10.Geod1.001
+    100098: Geod7.Geod7.
     400000: //RootNode
     400002: Geod0
     400004: Geod1
@@ -99,6 +102,9 @@ ModelImporter:
     400088: Geod4.Geod4..001
     400090: Geod4.Geod4..002
     400092: Geod4.Geod4..003
+    400094: Geod10.Geod1.000
+    400096: Geod10.Geod1.001
+    400098: Geod7.Geod7.
     2300000: Geod0
     2300002: Geod1
     2300004: Geod10
@@ -144,6 +150,9 @@ ModelImporter:
     2300084: Geod4.Geod4..001
     2300086: Geod4.Geod4..002
     2300088: Geod4.Geod4..003
+    2300090: Geod10.Geod1.000
+    2300092: Geod10.Geod1.001
+    2300094: Geod7.Geod7.
     3300000: Geod0
     3300002: Geod1
     3300004: Geod10
@@ -189,6 +198,9 @@ ModelImporter:
     3300084: Geod4.Geod4..001
     3300086: Geod4.Geod4..002
     3300088: Geod4.Geod4..003
+    3300090: Geod10.Geod1.000
+    3300092: Geod10.Geod1.001
+    3300094: Geod7.Geod7.
     4300000: Geode
     4300002: Geod0
     4300004: Geod1
@@ -234,6 +246,9 @@ ModelImporter:
     4300084: Geod4.Geod4..001
     4300086: Geod4.Geod4..002
     4300088: Geod4.Geod4..003
+    4300090: Geod10.Geod1.000
+    4300092: Geod10.Geod1.001
+    4300094: Geod7.Geod7.
     6400000: Geod0
     6400002: Geod1
     6400004: Geod10
@@ -279,6 +294,9 @@ ModelImporter:
     6400084: Geod4.Geod4..001
     6400086: Geod4.Geod4..002
     6400088: Geod4.Geod4..003
+    6400090: Geod10.Geod1.000
+    6400092: Geod10.Geod1.001
+    6400094: Geod7.Geod7.
   materials:
     importMaterials: 1
     materialName: 0
@@ -308,13 +326,13 @@ ModelImporter:
     addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
@@ -325,6 +343,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -337,6 +356,8 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
   humanoidOversampling: 1

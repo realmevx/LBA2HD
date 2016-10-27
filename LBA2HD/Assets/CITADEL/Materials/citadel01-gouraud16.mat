@@ -8,8 +8,8 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: citadel01-gouraud16
   m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ALPHATEST_ON _EMISSION
-  m_LightmapFlags: 1
+  m_ShaderKeywords: _ALPHATEST_ON
+  m_LightmapFlags: 6
   m_CustomRenderQueue: 2450
   stringTagMap:
     RenderType: TransparentCutout
@@ -128,7 +128,7 @@ Material:
     m_Colors:
     - first:
         name: _Color
-      second: {r: 0.3647059, g: 0.21960784, b: 0.11764706, a: 1}
+      second: {r: 0.33088237, g: 0.21657193, b: 0.13624567, a: 1}
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}

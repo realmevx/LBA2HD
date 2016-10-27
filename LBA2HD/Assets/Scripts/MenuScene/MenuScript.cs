@@ -48,6 +48,11 @@ public class MenuScript : MonoBehaviour {
 		float fadeTime = GameObject.Find("Main Camera").GetComponent<Fading>().BeginFade(1);
 		SceneManager.LoadScene("DesertDay");
 	}
+	public void DesertNight()
+	{
+		float fadeTime = GameObject.Find("Main Camera").GetComponent<Fading>().BeginFade(1);
+		SceneManager.LoadScene("DesertNight");
+	}
     
     public void ExitGame()
     {

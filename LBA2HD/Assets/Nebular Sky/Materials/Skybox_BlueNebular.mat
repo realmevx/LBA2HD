@@ -69,7 +69,7 @@ Material:
       second: 1
     - first:
         name: _Rotation
-      second: 1.1481482
+      second: 0.2171794
     m_Colors:
     - first:
         name: _Color

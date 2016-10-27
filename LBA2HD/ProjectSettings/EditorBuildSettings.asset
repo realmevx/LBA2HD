@@ -17,3 +17,5 @@ EditorBuildSettings:
     path: Assets/scene2.unity
   - enabled: 1
     path: Assets/DesertDay.unity
+  - enabled: 1
+    path: Assets/DesertNight.unity
