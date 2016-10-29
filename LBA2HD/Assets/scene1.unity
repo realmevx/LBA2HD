@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.8078988, g: 0.7921713, b: 0.8161765, a: 1}
+  m_AmbientSkyColor: {r: 0, g: 0.45098042, b: 0.7686275, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0.8
@@ -54,8 +54,8 @@ LightmapSettings:
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 4
-    m_Resolution: 0.1
-    m_BakeResolution: 5
+    m_Resolution: 2
+    m_BakeResolution: 10
     m_TextureWidth: 1024
     m_TextureHeight: 1024
     m_AO: 1
@@ -66,7 +66,7 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 0
-    m_DirectLightInLightProbes: 0
+    m_DirectLightInLightProbes: 1
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
@@ -1525,31 +1525,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -30.726013
+      value: -30.726
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -21.599777
+      value: -21.599
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -51.115448
+      value: -51.115
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.8427377
+      value: -0.84245247
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.5383244
+      value: 0.5387708
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RootOrder
@@ -1561,7 +1561,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -114.86101
+      value: -114.8
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_TagString
@@ -1597,6 +1597,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_ClearFlags
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -2499,7 +2511,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 7
   m_Type: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9705882, g: 0.98539555, b: 1, a: 1}
   m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
@@ -15717,24 +15729,24 @@ MonoBehaviour:
     precision: 32
     colorWheels:
       shadows: {r: 0.9999, g: 0.9999497, b: 1, a: 1}
-      midtones: {r: 0.9999, g: 0.9999516, b: 1, a: 1}
-      highlights: {r: 0.7851596, g: 0.88255554, b: 1, a: 1}
+      midtones: {r: 0.8673831, g: 0.9358254, b: 1, a: 1}
+      highlights: {r: 0.9999, g: 0.99994534, b: 1, a: 1}
     basics:
-      temperatureShift: 0.04
+      temperatureShift: 0.1
       tint: 0
       hue: 0
-      saturation: 1.2
-      vibrance: 0.3
+      saturation: 1.25
+      vibrance: 0.35
       value: 1
       contrast: 1
       gain: 1
       gamma: 1
     channelMixer:
-      currentChannel: 0
+      currentChannel: 2
       channels:
       - {x: 1, y: 0, z: 0}
       - {x: 0, y: 1, z: 0}
-      - {x: 0, y: 0, z: 1}
+      - {x: -0.2, y: 0.05, z: 1.35}
     curves:
       master:
         serializedVersion: 2
@@ -15798,13 +15810,13 @@ MonoBehaviour:
           value: 0
           inSlope: 1
           outSlope: 1
-          tangentMode: 0
+          tangentMode: 34
         - serializedVersion: 2
           time: 1
           value: 1
           inSlope: 1
           outSlope: 1
-          tangentMode: 0
+          tangentMode: 34
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 0
@@ -19191,12 +19203,12 @@ Prefab:
     - target: {fileID: 108000013479147400, guid: ee70bf410fd5a7b4b848082e3efc4d05,
         type: 2}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.9705882
       objectReference: {fileID: 0}
     - target: {fileID: 108000013479147400, guid: ee70bf410fd5a7b4b848082e3efc4d05,
         type: 2}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.98539555
       objectReference: {fileID: 0}
     - target: {fileID: 108000013479147400, guid: ee70bf410fd5a7b4b848082e3efc4d05,
         type: 2}
