@@ -11,7 +11,7 @@ public class MovingSkybox : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		rot += 0.15f * Time.deltaTime;
+		rot += 0.2f * Time.deltaTime;
 		rot %= 360;
 
 		RenderSettings.skybox.SetFloat("_Rotation",rot);

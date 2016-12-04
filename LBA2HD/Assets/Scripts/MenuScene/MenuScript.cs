@@ -34,9 +34,15 @@ public class MenuScript : MonoBehaviour {
     public void StartLevel()
     {
         float fadeTime = GameObject.Find("Main Camera").GetComponent<Fading>().BeginFade(1);
-        SceneManager.LoadScene("scene1");
+		SceneManager.LoadScene("scene1");
     }
 
+
+	public void StartMenu()
+	{
+		
+		SceneManager.LoadScene("MenuScene");
+	}
 	public void StartNight()
 	{
 		float fadeTime = GameObject.Find("Main Camera").GetComponent<Fading>().BeginFade(1);
